@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Données brutes (régénérables via scripts/prepare_data.py)
+data/raw/
+data/processed/
+
+# Modèles lourds (régénérables via l'entraînement)
+# results/models/*.pth
+# *.pt
+
+# Logs d'entraînement
+results/logs/
+
+# Logs d'entraînement
+reports/*.log
+reports/*.out
+reports/*.aux
+reports/*/*.log
+reports/*/*.out
+reports/*/*.aux
+reports/test_macro.tex
+reports/test_macro.pdf
+
+# Cache matplotlib
+.mplconfig/
+matplotlib-*/
+
+# Environnement
+.venv/
+venv/
+.env
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db

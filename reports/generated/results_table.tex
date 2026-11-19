@@ -1,0 +1,18 @@
+% Généré par scripts/make_report_assets.py --- ne pas éditer à la main.
+\begin{table}[H]
+\centering
+\small
+\caption{Résultats sur le jeu de test (\TestSize{} images). Le temps est le
+temps total d'entraînement mesuré sur CPU.}
+\label{tab:resultats}
+\begin{tabular}{lcccc}
+\toprule
+Variante & Accuracy & F1 macro & Meilleure époque & Temps (min) \\
+\midrule
+V1 --- baseline & 0,5811 & 0,4765 & 30 & 27,1 \\
+V2 --- augmentation & 0,5603 & 0,4506 & 29 & 33,0 \\
+V3 --- class weights & 0,2799 & 0,2465 & 18 & 26,4 \\
+V4 --- régularisation & 0,4533 & 0,3764 & 30 & 33,5 \\
+\bottomrule
+\end{tabular}
+\end{table}
